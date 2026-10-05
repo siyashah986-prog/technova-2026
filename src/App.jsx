@@ -12,10 +12,10 @@ function App() {
 
   const [registrations, setRegistrations] = useState([]);
 
-  // Fetch data from Express backend using Axios
+  // Fetch data from live Express backend using Axios
   useEffect(function () {
     axios
-      .get("http://localhost:3000/api/registrations")
+      .get("https://technova-2026.onrender.com/api/registrations")
       .then(function (response) {
         setRegistrations(response.data);
       })
