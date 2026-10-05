@@ -1,0 +1,254 @@
+body{
+  background:#f8f9fa;
+  font-family:Arial,sans-serif;
+}
+
+.hero{
+  background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+  url("https://images.unsplash.com/photo-1511578314322-379afb476865?w=1600");
+  background-size:cover;
+  background-position:center;
+  padding:120px 20px;
+}
+
+.card{
+  border:none;
+  border-radius:15px;
+}
+
+footer{
+  margin-top:40px;
+}
+
+/* Props Section */
+
+.props-section{
+  padding:70px 30px;
+  text-align:center;
+  background:#ffffff;
+}
+
+.props-section h2{
+  font-size:36px;
+  margin-bottom:15px;
+  color:#222;
+}
+
+.props-intro{
+  font-size:18px;
+  margin-bottom:40px;
+  color:#555;
+}
+
+.props-container{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.props-card{
+  width:300px;
+  padding:25px;
+  background:#f8f9fa;
+  border-radius:15px;
+  box-shadow:0 5px 15px rgba(0,0,0,.15);
+  text-align:left;
+  transition:.3s;
+}
+
+.props-card:hover{
+  transform:translateY(-8px);
+  box-shadow:0 10px 25px rgba(0,0,0,.2);
+}
+
+.props-card h3{
+  color:#0d6efd;
+  margin-bottom:15px;
+}
+
+.props-card p{
+  margin:8px 0;
+  font-size:16px;
+}
+.registration-page{
+  min-height:600px;
+  padding:80px 20px;
+  text-align:center;
+  background:#f8f9fa;
+}
+
+.registration-page h2{
+  font-size:32px;
+  margin-bottom:30px;
+  color:#222;
+}
+
+.registration-form{
+  max-width:450px;
+  margin:auto;
+  padding:30px;
+  background:white;
+  border-radius:15px;
+  box-shadow:0 5px 20px rgba(0,0,0,.15);
+}
+
+.registration-form input{
+  width:100%;
+  padding:12px;
+  margin-bottom:15px;
+  border:1px solid #ddd;
+  border-radius:8px;
+  font-size:16px;
+}
+
+.registration-form button{
+  width:100%;
+}
+.state-section{
+  padding:80px 30px;
+  text-align:center;
+  background:linear-gradient(135deg,#eef4ff,#f8f9fa);
+}
+
+.state-section h2{
+  font-size:38px;
+  font-weight:700;
+  color:#212529;
+  margin-bottom:12px;
+}
+
+.state-section > p{
+  font-size:18px;
+  color:#6c757d;
+  margin-bottom:45px;
+}
+
+.state-events{
+  display:flex;
+  justify-content:center;
+  gap:25px;
+  flex-wrap:wrap;
+}
+
+.state-event-card{
+  width:280px;
+  padding:30px 20px;
+  background:white;
+  border-radius:20px;
+  box-shadow:0 8px 25px rgba(0,0,0,.12);
+  transition:.3s;
+}
+
+.state-event-card:hover{
+  transform:translateY(-10px);
+  box-shadow:0 15px 35px rgba(0,0,0,.18);
+}
+
+.event-icon{
+  font-size:45px;
+  margin-bottom:10px;
+}
+
+.state-event-card h3{
+  color:#0d6efd;
+  font-size:22px;
+}
+
+.state-event-card p{
+  color:#555;
+  margin:8px;
+}
+
+.available{
+  font-size:14px;
+  color:#198754 !important;
+}
+
+.state-event-card button{
+  margin-top:12px;
+  border-radius:10px;
+  padding:10px 22px;
+}
+
+.booking-box{
+  max-width:500px;
+  margin:50px auto 0;
+  padding:35px;
+  background:white;
+  border-radius:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+}
+
+.booking-box h3{
+  color:#0d6efd;
+  margin-bottom:25px;
+}
+
+.seat-control{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:25px;
+  margin:25px 0;
+}
+
+.seat-control button{
+  width:40px;
+  height:40px;
+  border:none;
+  border-radius:50%;
+  background:#0d6efd;
+  color:white;
+  font-size:25px;
+  cursor:pointer;
+}
+
+.seat-control span{
+  font-size:25px;
+  font-weight:bold;
+  min-width:30px;
+}
+
+.total{
+  font-size:22px;
+  font-weight:bold;
+  margin:20px;
+}
+.booking-success{
+  max-width:500px;
+  margin:50px auto 0;
+  padding:40px;
+  background:white;
+  border-radius:22px;
+  box-shadow:0 10px 30px rgba(0,0,0,.15);
+  text-align:center;
+}
+
+.success-icon{
+  width:65px;
+  height:65px;
+  margin:0 auto 20px;
+  border-radius:50%;
+  background:#198754;
+  color:white;
+  font-size:40px;
+  line-height:65px;
+  font-weight:bold;
+}
+
+.booking-success h3{
+  color:#198754;
+  font-size:28px;
+  margin-bottom:20px;
+}
+
+.booking-success p{
+  color:#555;
+  font-size:17px;
+  margin:10px;
+}
+
+.booking-success button{
+  margin-top:20px;
+}
